@@ -6,10 +6,8 @@ import Pages.RegisterUserPage;
 import Utility.ReadExcel;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -51,6 +49,7 @@ public class Register {
         //Click on Register button
         objRegisterUserPage.clickRegisterBtn();
 
+        //new Comment
         //Register User
 //        String email="test"+random.nextInt(50)+"@test.com";
         String email = "test@test.com";
