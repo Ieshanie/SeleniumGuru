@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Guru 99 Register Automation Scenario" verbose="1">
+    <test name="Register Login">
+        <classes>
+            <class name="TestCases.Register"></class>
+        </classes>
+    </test>
+    <test name="Register Login2">
+        <classes>
+            <class name="TestCases.Register1"></class>
+        </classes>
+    </test>
+</suite>
